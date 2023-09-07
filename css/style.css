@@ -1,0 +1,23 @@
+/* general */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+	--color-card: #0f0e17;
+	--color-title: #e53170;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
