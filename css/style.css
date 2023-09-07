@@ -22,53 +22,45 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.wrapper{
+/* .debug{
+    border: 5px solid black;
+} */
+
+.container{
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 30px auto;
 }
 
-.text-center{
-    text-align: center;
-}
-
-header{
+h1{
     color: var(--color-title);
+    font-size: 30px;
     text-align: center;
-    font-size: 20px;
-    margin: 40px auto;
+    margin: 40px;
 }
 
 .box{
-    /* background-color: var(--color-card); */
-    width: calc(100% / 3);
-    padding: 20px;
-
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    background-color: var(--color-card);
 }
 
 .float-left{
-    float: left;
+    float: left;    
 }
 
-.container{
-    margin: 40px auto; 
-    
+img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.info{
+    width:(100& - 100px);
+    padding: 5px
 }
 
 h2{
     font-size: 20px;
 }
-
-.info{
-    background-color: var(--color-card);
-    color: white;
-    height: 100px;
-}
-
-.card{
-    width: 100px;
-    height: 100px;
-}
-
-
 
 
