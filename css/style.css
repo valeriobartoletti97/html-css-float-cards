@@ -25,6 +25,9 @@ body{
 .wrapper{
     max-width: 1200px;
     margin: 40px auto;
+}
+
+.text-center{
     text-align: center;
 }
 
@@ -34,4 +37,38 @@ header{
     font-size: 20px;
     margin: 40px auto;
 }
+
+.box{
+    /* background-color: var(--color-card); */
+    width: calc(100% / 3);
+    padding: 20px;
+
+}
+
+.float-left{
+    float: left;
+}
+
+.container{
+    margin: 40px auto; 
+    
+}
+
+h2{
+    font-size: 20px;
+}
+
+.info{
+    background-color: var(--color-card);
+    color: white;
+    height: 100px;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+}
+
+
+
 
