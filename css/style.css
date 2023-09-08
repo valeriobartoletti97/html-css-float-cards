@@ -20,6 +20,7 @@
 
 body{
     font-family: 'Anton', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -47,9 +48,10 @@ h1{
 }
 
 img{
-    width: 100px;
-    height: 100px;
-    display: inline-block;
+    max-width: 100px;
+    display: block;
+    vertical-align: bottom;
+    object-fit: contain;
 }
 
 .info{
